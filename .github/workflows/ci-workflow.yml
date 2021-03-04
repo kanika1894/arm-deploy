@@ -22,7 +22,7 @@ jobs:
         env:
           INPUT_SCOPE: resourcegroup
           INPUT_SUBSCRIPTIONID: ${{ secrets.SUBSCRIPTION_ID }}
-          INPUT_RESOURCEGROUPNAME: azurearmaction
+          INPUT_RESOURCEGROUPNAME: kptestrg001
           INPUT_TEMPLATELOCATION: ./test/template.json
           INPUT_PARAMETERS: ./test/parameters.json
           INPUT_DEPLOYMENTNAME: github-test
